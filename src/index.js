@@ -69,7 +69,7 @@ class Markdown extends Component<Props> {
         inline: false,
       })
       return SimpleMarkdown.outputFor(rules, 'react')(
-        tree,
+        tree
       )
     }
     catch (errors) {
